@@ -58,6 +58,7 @@ will dump all the values of the columns of the table user in a text file locally
 ![image](https://user-images.githubusercontent.com/82643868/227794124-27f72fd7-6c6e-44cf-92ed-88404b4b9bb8.png)
 
 
+![image](https://user-images.githubusercontent.com/82643868/227794168-70222f7c-2615-4be1-bd81-df604b7d1aa8.png)
 
 
 
