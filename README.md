@@ -16,3 +16,32 @@ Metasploitable2: Metasploitable2 is a virtual machine designed to be vulnerable 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Stepwise Demonstration:
+
+First we need to download SQLmap using the following command: sudo apt install sqlmap
+![image](https://user-images.githubusercontent.com/82643868/227793227-301bc794-2bf8-4c7a-925d-640b78160cca.png)
+
+To setup dvwa for SQLmap we are using metasploitable 2. Here is the demonstration of the same.
+![image](https://user-images.githubusercontent.com/82643868/227793253-6e2152e1-960c-4b5a-8977-5d932ce286e5.png)
+
+Click on DVWA.
+We get the access to dvwa.
+![image](https://user-images.githubusercontent.com/82643868/227793302-a2a8d75c-cdbc-435c-9f6d-c47b9522a9b9.png)
+
+Click on DVWA Security and set the security level to low.
+![image](https://user-images.githubusercontent.com/82643868/227793395-25c13265-cab9-44c9-9d1d-4acc88ec81c6.png)
+
+After setting security to low , we click on SQL injection and set the ID as 1.
+![image](https://user-images.githubusercontent.com/82643868/227793479-5d09a115-956a-4ec4-a829-56d0fd32fc8c.png)
+
+Click on inspect to view the php session id
+![image](https://user-images.githubusercontent.com/82643868/227793639-f8bd430e-b2cd-4ac8-9b65-1096a4b142e5.png)
+
+We run the following command in the terminal : sqlmap -u "url" --cookie "php session id and security"
+the output is as follows:
+
+
+
+
+
+
