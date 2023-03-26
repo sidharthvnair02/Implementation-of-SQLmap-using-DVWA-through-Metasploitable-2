@@ -39,6 +39,10 @@ Click on inspect to view the php session id
 
 We run the following command in the terminal : sqlmap -u "url" --cookie "php session id and security"
 the output is as follows:
+![image](https://user-images.githubusercontent.com/82643868/227793856-aa2929b6-f708-4e83-8275-10d267b308eb.png)
+
+dbs is used to enumerate database :
+run the command: sqlmap -u "url" --cookie "php session id and security"--dbs
 
 
 
